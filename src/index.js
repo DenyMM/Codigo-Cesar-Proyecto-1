@@ -1,4 +1,4 @@
-function showword(){
+const showword=()=>{
   var getTextUser =document.getElementById('intUserText').value;
   document.getElementById('textToCiph').innerHTML=("El palabra que quieres codificar es:"+ getTextUser);
  }

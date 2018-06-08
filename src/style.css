@@ -1,0 +1,17 @@
+h1
+{
+  color :#581845 ;
+}
+h2
+{
+  color: #802063;
+}
+input
+{
+  color:white;
+  border: 5px solid #802063  ;
+  background-color: #581845  ;
+  padding: 1em;
+  margin:1em;
+  background-position: top;
+}

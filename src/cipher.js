@@ -18,12 +18,13 @@ const cipherTextOp = (string , offset)=>{
   }
   return result;
 }
-function final(){
+const final=()=>{
   let textIntUser = document.getElementById('intUserText').value; //agarra el texto del usuario
   // Para introducir en una variable el numero de posiciones que de el usuario y usarlo en vex de 33
 //  let poscIntUser = document.getElementById('numPosicUser').value;
 document.getElementById('ciphTextHere').innerHTML=(cipherTextOp(textIntUser,33)); //lanza la operacion (funcion(string,posicion))
 }
+//funcion
 //window.cipher = {
   // ...
 //};
