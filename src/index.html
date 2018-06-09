@@ -11,26 +11,29 @@
   <h2 id="showwindow"><form>Ingresa una palabra:<br>
      <input id="intUserText" type="text">
      <input type="button" value="ok" onclick="showword()"><br>
-    <input type="button" value="Codificar" onclick="final()">
+    <input type="button" value="Codificar" onclick="finalCyph()">
   </form></h2>
-  <h2 id="textToCiph"><br></h2>
-  <h2 id="codi"><form>Mensaje Codificado<br>
+  <h3 id="textToCiph"><br></h3>
+  <h2 id="codi"><form>Mensaje Codificado <br></h2>
   <h2 id="ciphTextHere"></h2>
-  <!--
+  <!--boton num
     <h2><form>Ingresa numero de posiciones: <br>
      <input id="numPosicUser" type="text"  name="Ingresa numero">
      <input type="button" value="ok" onclick="showposc()"><br>
    </form></h2>
   <h2 id="numPoscHere"></h2>
   </form>
-  </h2>
-  <h2 id=insertNumber><form>Ingresar numero:<br>
-    <input type="button" value="Decodificar" onclick="decodific()"></h2>
+  </h2>-->
+  <!--boton num decp -->
+  <h2 id=insertNumber><form>Ingresar texto a decodificar:<br>
+    <input id="intUserNum" type="text">
+    <input type="button" value="ok" onclick="shownum()"><br>
+    <input type="button" value="Decodificar" onclick="finalDeCyph()"
+    </form></h2>
+  <h3 id="numToCyph"><br></h3>
   <h2 id="decodi"><form>Mensaje Decodificado<br>
-  </form>
-  </h2>
-  <h3 id="ccc"></h3>
-  -->
+  <h2 id="ciphNumHere"></h2>
+
     </div>
     <div id="root"></div>
     <script src="cipher.js"></script>

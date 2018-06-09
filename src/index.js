@@ -4,10 +4,10 @@ const showword=()=>{
  }
 
  // Funcion para la posicion que introduce el usuario
-//function showposc(){
- //var userNum = document.getElementById('numPosicUser').value;
-//document.getElementById('numPoscHere').innerHTML= ("El numero que quieres decodificar es:"+ userNum);
-//  }
+const shownum=()=>{
+ var getNumUser = document.getElementById('intUserNum').value;
+  document.getElementById('numToCyph').innerHTML= ("El numero que quieres decodificar es:"+ getNumUser);
+  }
 
 
 //function goToCiph() {
