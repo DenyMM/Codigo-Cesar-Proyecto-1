@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <center>
     <h1>Cifrado Cesar</h1>
     <div>
   <h2 id="showwindow"><form>Ingresa una palabra:<br>
      <input id="intUserText" type="text">
-     <input type="button" value="ok" onclick="showword()"><br>
-    <input type="button" value="Codificar" onclick="finalCyph()">
+     <input id="ok1" type="button" value="   " onclick="showword()"><br>
+    <input id="Cod" type="button" value="Codificar" onclick="finalCyph()">
+    <i class="fa fa-unlock" aria-hidden="true"></i>
   </form></h2>
   <h3 id="textToCiph"><br></h3>
   <h2 id="codi"><form>Mensaje Codificado <br></h2>
@@ -27,16 +28,19 @@
   <!--boton num decp -->
   <h2 id=insertNumber><form>Ingresar texto a decodificar:<br>
     <input id="intUserNum" type="text">
-    <input type="button" value="ok" onclick="shownum()"><br>
-    <input type="button" value="Decodificar" onclick="finalDeCyph()"
+    <input id="ok2" type="button" value="   " onclick="shownum()"><br>
+    <input id="Dec" type="button" value="Decodificar" onclick="finalDeCyph()"
     </form></h2>
   <h3 id="numToCyph"><br></h3>
   <h2 id="decodi"><form>Mensaje Decodificado<br>
   <h2 id="ciphNumHere"></h2>
-
+</center>
     </div>
     <div id="root"></div>
+      <link rel="stylesheet" href="style.css" />
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   </body>
 </html>

@@ -1,17 +1,113 @@
+html{
+  background-color:#AEA8AC;
+  background-image: url("http://www.seekgif.com/uploads/2017/08/texas-star-transparent-background-as-well-banner-clip-art-free--26.png");
+  background-position:center;
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+html:hover{
+  background-color: #AEA8AC;
+  background-image: url("http://www.seekgif.com/uploads/2017/08/texas-star-transparent-background-as-well-banner-clip-art-free--26.png");
+  background-position:top;
+  background-size:auto;
+  transition: all .7s ease-in-out;
+  background-repeat: no-repeat;
+  background-blend-mode:soft-light;
+}
+
 h1
 {
-  color :#581845 ;
+  color :#383A39;
+font-family: 'Righteous', cursive;
 }
 h2
 {
+  color: #484B4A;
+  font-family: 'Poiret One', cursive;
+}
+h3
+{
   color: #802063;
+  font-family: 'Poiret One', cursive;
+}
+#intUserNum{
+  color: #1B4168;
+  background-color: #D8DFDB;
+  padding-right: 8em;
+}
+#intUserText{
+  color: #1B4168;
+  background-color: #D8DFDB;
+  padding-right: 8em;
 }
 input
 {
-  color:white;
-  border: 5px solid #802063  ;
-  background-color: #581845  ;
+
+  /*border: 5px solid #802063  ;*/
+  background-color: ##AEA8AC ;
   padding: 1em;
   margin:1em;
+  background-size: cover;
   background-position: top;
+  font-family: 'Righteous', cursive;
+  transform-style: preserve-3d;
+}
+#ok1
+{
+  color:white;
+  border: 2px solid #AEA8AC  ;
+  background-color: #AEA8AC  ;
+  background-image: url("https://image.flaticon.com/icons/png/512/52/52204.png");
+  padding: 1em;
+  margin: 2em;
+  background-size:cover;
+  background-position: center;
+  font-family: 'Righteous', cursive;
+}
+#Cod{
+  color:#747674;
+  padding-right: 3em;
+  padding-top: 1em;
+  border:2px solid #747674;
+  background-image: url("http://simpleicon.com/wp-content/uploads/lock-3-64x64.png");
+  background-position: right;
+  background-size: 30px, 30px;
+  background-repeat: no-repeat;
+
+}
+#Cod:hover {
+  background:#774E6B ;
+  color:black;
+  box-shadow: inset 0 0 0 3px black;
+  background-image: url("http://simpleicon.com/wp-content/uploads/lock-2-64x64.png");
+  background-position: right;
+  background-size: 30px, 30px;
+  background-repeat: no-repeat;
+  transition: all .5s ease-in-out;
+  }
+  #Dec{
+    color:#747674;
+    border:2px solid #747674;
+    padding-right:  3em;
+    padding-top: 1em;
+  }
+  #Dec:hover {
+    background:#4E6977 ;
+    color: black;
+    box-shadow: inset 0 0 0 3px black;
+    background-image: url("http://simpleicon.com/wp-content/uploads/key-2-64x64.png");
+    background-position: right;
+    background-size: 30px, 30px;
+    background-repeat:no-repeat;
+    transition: all .5s ease-in-out;
+    }
+ #ok2{
+  color:white;
+  border: 2px solid #AEA8AC  ;
+  background-color: #AEA8AC  ;
+  background-image: url("https://image.flaticon.com/icons/png/512/52/52204.png");
+  padding: 1em;
+  margin: 2em;
+  background-size:cover;
+  background-position: center;
 }
