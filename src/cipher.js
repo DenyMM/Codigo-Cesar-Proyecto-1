@@ -24,13 +24,13 @@ const cypherNumOp=(string , offset)=>{
   let cyphNum = resultD;
     for (let i = 0; i < string.length; i++){
       if (string.charCodeAt(i)>=65 && string.charCodeAt(i)<=90){
-        cyphNum = (((string.charCodeAt(i)+65) + offset) % 26) +65;
+        cyphNum = (((string.charCodeAt(i)+65) - offset) % 26) +65;
       }
       else if (string.charCodeAt(i)>=97 && string.charCodeAt(i)<=122){
       cyphNum = (((string.charCodeAt(i)+97) + offset) % 26) + 97;
       }
       else if (string.charCodeAt(i)>=32 && string.charCodeAt(i)<=64){
-      cyphNum = (((string.charCodeAt(i) + 32) + offset) % 26) + 32;
+      cyphNum = (((string.charCodeAt(i) - 32) + offset) % 26) + 32;
       }
         resultD = resultD + String.fromCharCode(cyphNum);
       }
