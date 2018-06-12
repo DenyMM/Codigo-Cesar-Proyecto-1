@@ -1,4 +1,4 @@
-const cipherTextOp = (string , offset)=>{
+window.cipher = (string , offset)=>{
   let result = ""; // no se puede operar con string vacio
   let ciphText = result;    //asignarle un valor nuevo como variable
   for (let i = 0; i < string.length; i++){   //empieza desde 0 hasta el numero final de la palabra variable string, se incremente 1
@@ -17,9 +17,9 @@ const cipherTextOp = (string , offset)=>{
     }
 const finalCyph=()=>{
   let textIntUser = document.getElementById('intUserText').value;
-document.getElementById('ciphTextHere').innerHTML=(cipherTextOp(textIntUser,33)); //lanza la operacion (funcion(string,posicion))
+document.getElementById('ciphTextHere').innerHTML=(window.cipher(textIntUser,33)); //lanza la operacion (funcion(string,posicion))
 }
-const cypherNumOp=(string , offset)=>{
+window.decipher =(string , offset)=>{
   let resultD = "";
   let cyphNum = resultD;
     for (let i = 0; i < string.length; i++){
@@ -38,7 +38,7 @@ const cypherNumOp=(string , offset)=>{
       }
 const finalDeCyph=()=>{
   let numIntUser = document.getElementById('intUserNum').value;
-  document.getElementById('ciphNumHere').innerHTML= (cypherNumOp(numIntUser,33));
+  document.getElementById('ciphNumHere').innerHTML= (window.decipher(numIntUser,33));
 }
 //funcion
 //window.cipher = {
