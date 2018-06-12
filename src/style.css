@@ -40,6 +40,12 @@ h3
   background-color: #D8DFDB;
   padding-right: 8em;
 }
+#ciphTextHere{
+  font-family: 'Righteous', cursive;
+}
+#ciphNumHere{
+  font-family: 'Righteous', cursive;
+}
 input
 {
 
@@ -76,15 +82,17 @@ input
 
 }
 #Cod:hover {
-  background:#774E6B ;
+  filter: invert(0.9);
+  background:#454545;
   color:black;
-  box-shadow: inset 0 0 0 3px black;
+  box-shadow: inset 0 0 0 3px #3A4347;
   background-image: url("http://simpleicon.com/wp-content/uploads/lock-2-64x64.png");
   background-position: right;
   background-size: 30px, 30px;
   background-repeat: no-repeat;
   transition: all .5s ease-in-out;
   }
+
   #Dec{
     color:#747674;
     border:2px solid #747674;
@@ -92,9 +100,10 @@ input
     padding-top: 1em;
   }
   #Dec:hover {
-    background:#4E6977 ;
+    filter: invert(0.9);
+    background:#454545;
     color: black;
-    box-shadow: inset 0 0 0 3px black;
+    box-shadow: inset 0 0 0 3px #3A4347;
     background-image: url("http://simpleicon.com/wp-content/uploads/key-2-64x64.png");
     background-position: right;
     background-size: 30px, 30px;
