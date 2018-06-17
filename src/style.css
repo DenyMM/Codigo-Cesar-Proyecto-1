@@ -19,6 +19,15 @@ html:hover{
   color :#383A39;
   font-family: 'Righteous', cursive;
   }
+  #mess{
+    color:#330937;
+    font-family: 'Poiret One', cursive;
+    font-stretch: semi-condensed;
+  }
+  #mess:hover{
+    color: #58405A
+  }
+
  h2{
   color: #484B4A;
   font-family: 'Poiret One', cursive;

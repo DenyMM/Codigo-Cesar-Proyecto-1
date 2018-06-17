@@ -46,14 +46,16 @@
            }
             //Decodifica los caracteres
             else if (string.charCodeAt(i)>=32 && string.charCodeAt(i)<=64){
-            cyphNum = (((string.charCodeAt(i) - 32) + offset) % 26) + 32;
+            cyphNum = (((string.charCodeAt(i) + 32) +offset) % 26) + 32;
             }
               resultD = resultD + String.fromCharCode(cyphNum);
             }
             return resultD;
   },
   createCipherWithOffset:()=>{
-    return
+    return{
+
+    }
 
   }
 };
