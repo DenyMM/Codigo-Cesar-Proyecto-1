@@ -1,39 +1,33 @@
 html{
-  background-color:#AEA8AC;
-  background-image: url("http://www.seekgif.com/uploads/2017/08/texas-star-transparent-background-as-well-banner-clip-art-free--26.png");
+  background-color:#8C708F;
+  background-image: url("https://i.imgur.com/e8UoDGR.gif");
   background-position:center;
-  background-size:auto;
-  background-repeat: no-repeat;
+  background-size:cover;
+  background-repeat: repeat;
+
   }
 html:hover{
+  color:#332E34;
   background-color: #AEA8AC;
-  background-image: url("http://www.seekgif.com/uploads/2017/08/texas-star-transparent-background-as-well-banner-clip-art-free--26.png");
+  background-image: url("https://i.imgur.com/e8UoDGR.gif");
   background-position:top;
-  background-size:auto;
-  transition: all .7s ease-in-out;
+  background-size:cover;
+  transition: all .5s ease-in-out;
   background-repeat: no-repeat;
   background-blend-mode:soft-light;
-  }
 
+  }
  h1{
-  color :#383A39;
+  color :#332E34;
   font-family: 'Righteous', cursive;
-  }
-  #mess{
-    color:#330937;
-    font-family: 'Poiret One', cursive;
-    font-stretch: semi-condensed;
-  }
-  #mess:hover{
-    color: #58405A
   }
 
  h2{
-  color: #484B4A;
+  color: #2B232C;
   font-family: 'Poiret One', cursive;
   }
  h3{
-  color: #802063;
+  color: #DDB7E1;
   font-family: 'Poiret One', cursive;
   }
   #intUserNum{
@@ -53,7 +47,7 @@ html:hover{
     font-family: 'Righteous', cursive;
     }
  input{
-  background-color: ##AEA8AC ;
+  background-color: #AEA8AC ;
   padding: 1em;
   margin:1em;
   background-size: cover;
@@ -87,7 +81,7 @@ html:hover{
      background:#454545;
      color:black;
      box-shadow: inset 0 0 0 3px #3A4347;
-     background-image: url("http://simpleicon.com/wp-content/uploads/lock-2-64x64.png");
+     background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/1507844-200.png");
      background-position: right;
      background-size: 30px, 30px;
      background-repeat: no-repeat;
@@ -104,7 +98,7 @@ html:hover{
      background:#454545;
      color: black;
      box-shadow: inset 0 0 0 3px #3A4347;
-     background-image: url("http://simpleicon.com/wp-content/uploads/key-2-64x64.png");
+     background-image: url("https://orig00.deviantart.net/59db/f/2014/136/f/0/keyblade_by_paulo60379-d7il3bv.png");
      background-position: right;
      background-size: 30px, 30px;
      background-repeat:no-repeat;

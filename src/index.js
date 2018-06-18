@@ -9,3 +9,6 @@
    let numIntUser = document.getElementById('intUserNum').value;
    document.getElementById('ciphNumHere').innerHTML= (cipher.decode(numIntUser, 33));
    }
+const inicioCC= ()=>{
+  window.location.href = "index.html";
+}
